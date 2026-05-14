@@ -1,5 +1,7 @@
 # delegate-flow
 
+[English](README.md) | 中文
+
 > [obra/superpowers: An agentic skills framework & software development methodology that works.](https://github.com/obra/superpowers)
 
 微调superpowers的skill，用于：
