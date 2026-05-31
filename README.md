@@ -4,15 +4,19 @@ English | [中文](README.zh.md)
 
 > [obra/superpowers: An agentic skills framework & software development methodology that works.](https://github.com/obra/superpowers)
 
-A fine-tuned fork of the superpowers skill, designed to:
-1. Adapt the workflow to personal preferences
-2. Enforce a subagent workflow that separates strong models from weak models
-3. Validate whether token costs can be reduced
+Fine-tune the superpowers skill for:
+1. Adjusting it to fit my own workflow
+2. Separating specification from implementation
+3. Verifying whether token costs can be reduced
 
-## Separation of Strong and Weak Models
+> We assume:
+> 1. The main issue between humans and large models is requirement/specification alignment
+> 2. Once the specification is clear, large models can produce correct code
+
+## Separation of Specification and Implementation
 
 > Decision risk vs. execution certainty
 
-> Strong models make irreversible decisions; weak models handle verifiable execution
+> The specification stage makes irreversible decisions; the implementation stage completes the goal
 
-Strong model handles high-impact decisions → Weak model handles well-scoped, verifiable, and rollback-safe implementation → Strong model reviews the result
+Specification -> Implementation -> Review implementation result
