@@ -2,16 +2,16 @@
 
 [English](README.md) | 中文
 
-> [obra/superpowers: An agentic skills framework & software development methodology that works.](https://github.com/obra/superpowers)
-
-微调superpowers的skill，用于：
-1. 调整为适合自己的工作流
-2. 规格和实施分离
+面向软件工程的工作流：
+1. 规格和实施分离
+2. 通过需求/规格对齐，降低决策风险（包括需求风险、工程风险、正确性风险、执行/交接风险）
 3. 验证能否减少token成本
 
 > 我们假设：
 > 1. 人与大模型之间的主要问题是需求/规格对齐
 > 2. 明确规格后，大模型可以产出正确代码
+
+> 灵感来源：[superpowers](https://github.com/obra/superpowers)
 
 ## 规格与实施分离
 
@@ -20,3 +20,8 @@
 > 规格阶段做不可逆决策，实施阶段完成目标
 
 规格 -> 实施 -> 审核实施结果
+
+## Skills
+
+- `delegate-flow`：沟通需求，逐步降低决策风险，补充交接章节，子代理实施，审核实施结果。
+- `delegate-flow-direct`：沟通需求，逐步降低决策风险，不补充交接章节，不默认派发子代理，实施，审核实施结果。
